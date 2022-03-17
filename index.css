@@ -1,0 +1,90 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    text-align: center;
+    background-color: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+}
+
+#top-half {
+    width: 100%;
+    min-height: 30vh;
+    padding: 5vh 0;
+    background-image: linear-gradient(
+    246.26deg, #585DFE 0%, #FB3796 100%
+    );
+    
+}
+
+#bottom-half{
+    width: 100%;
+    min-height: 40vh;
+    background: #1F2937;
+    padding: 10vh 0 10vh 0;
+}
+
+#convert-el{
+    font-weight: 800;
+    font-size: 88px;
+    line-height: 24px;
+}
+
+h1 {
+    text-align: center;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 38px;
+    letter-spacing: -0.05em;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 97.5723px;
+    line-height: 24px;
+    letter-spacing: -0.05em;
+    color: white;
+}
+
+h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: white;
+}
+
+p {
+    margin: 27px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #D2D2D2;
+}
+
+.container{
+    text-align: center;
+    display: inline-block;
+    width: 550px;
+}
+
+input{
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+}
+
+input:focus{
+    background: white;
+    color: black;
+}
